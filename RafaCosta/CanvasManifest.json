@@ -114,7 +114,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "pt-BR"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Tela Principal",

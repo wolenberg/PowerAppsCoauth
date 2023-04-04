@@ -1,9 +1,9 @@
 "'Tela Principal' As screen":
-    Fill: =RGBA(234, 234, 234, 1)
-    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+    Fill: =RGBA(242, 239, 223, 1)
+    LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 
     "glrFabricantes As gallery.'BrowseLayout_Vertical_OneImageTwoColumnVariant_ver4.0'":
-        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderColor: =RGBA(92, 74, 168, 1)
         Height: =618
         Items: =Manufacturers
         Layout: =Layout.Vertical
@@ -15,7 +15,7 @@
         ZIndex: =1
 
         Image4 As image:
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =61
@@ -29,12 +29,12 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =If(CountRows(ListaComparar)>0,DisplayMode.Edit,DisplayMode.Disabled)
-        Fill: =RGBA(164, 38, 44, 1)
+        Fill: =RGBA(30, 14, 91, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         FontWeight: =FontWeight.Semibold
         Height: =28
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Navigate('Tela Seleção')
         Size: =15
         Text: ="Comparar " & CountRows(ListaComparar) & " item(s)"
@@ -44,7 +44,7 @@
         ZIndex: =4
 
     "glrDispositivos As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
-        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderColor: =RGBA(92, 74, 168, 1)
         Height: =600
         Items: =Filter(Devices,ManufacturerID = glrFabricantes.Selected.ManufacturerID)
         TemplatePadding: =0
@@ -55,7 +55,7 @@
         ZIndex: =6
 
         Image2 As image:
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =296
@@ -103,11 +103,11 @@
             ZIndex: =3
 
         Checkbox2 As checkbox:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            CheckboxBorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
+            CheckboxBorderColor: =RGBA(92, 74, 168, 1)
             Color: =RGBA(0, 0, 0, 1)
             Default: =ThisItem in ListaComparar
-            HoverColor: =RGBA(89, 0, 0, 1)
+            HoverColor: =RGBA(92, 74, 168, 1)
             OnCheck: =Collect(ListaComparar,ThisItem)
             OnSelect: =Select(Parent)
             OnUncheck: =Remove(ListaComparar,ThisItem)
@@ -122,12 +122,12 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =If(CountRows(ListaComparar)>0,DisplayMode.Edit,DisplayMode.Disabled)
-        Fill: =RGBA(164, 38, 44, 1)
+        Fill: =RGBA(30, 14, 91, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         FontWeight: =FontWeight.Semibold
         Height: =28
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Clear(ListaComparar)
         Size: =15
         Text: ="Limpar Seleção"
@@ -145,7 +145,7 @@
 
         lbCabecalho As label:
             Align: =Align.Center
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =btNavegar.Fill
@@ -157,7 +157,7 @@
             ZIndex: =1
 
         lbUsuario As label:
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =80
@@ -187,7 +187,7 @@
             ZIndex: =3
 
         lbRodape As label:
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =btNavegar.Fill
@@ -201,7 +201,7 @@
             ZIndex: =5
 
         imgLogoJohnDeere As image:
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(92, 74, 168, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =80
@@ -214,10 +214,10 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(164, 38, 44, 1)
+        Fill: =RGBA(30, 14, 91, 1)
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         Size: =15
         Text: ="Button"
         X: =1159
@@ -231,7 +231,7 @@
         Fill: =RGBA(0, 134, 208, 1)
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         Size: =15
         Text: ="Botão"
         X: =300
