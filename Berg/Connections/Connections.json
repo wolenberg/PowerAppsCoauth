@@ -1,0 +1,38 @@
+{
+  "5ee497d8-d1b1-4d83-83c9-5d574ab85f97": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://m365x68223294.sharepoint.com/sites/FormacaoWolenberg": {
+        "dataSources": {
+          "Pedidos Dispositivos": {
+            "tableName": "8a0e7d35-8be4-4ccf-b02b-3f8fdc182dc6"
+          }
+        }
+      },
+      "https://niteo1.sharepoint.com/sites/TreinamentoWolenberg": {
+        "dataSources": {
+          "Pedido de Dispositivos": {
+            "tableName": "ea608ffd-b13e-40e5-8c5d-2d8c16aae090"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Pedidos Dispositivos",
+      "Pedido de Dispositivos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5ee497d8-d1b1-4d83-83c9-5d574ab85f97"
+  }
+}

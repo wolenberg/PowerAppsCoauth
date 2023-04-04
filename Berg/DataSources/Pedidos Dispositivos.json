@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-12-15T17:53:40.3910000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Aprovador": "Aprovador",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "Comentarios": "Comentários",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "DataAprovacao": "Data Aprovação",
+      "DataRequisicao": "Data Requisição",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "EstimativaEntrega": "Estimativa Entrega",
+      "ID": "ID",
+      "Imposto": "Imposto",
+      "Modified": "Modified",
+      "Preco": "Preço",
+      "RequisitadoPor": "Requisitado Por",
+      "StatusAprovacao": "Status Aprovação",
+      "StatusAprovacao#Id": "Status Aprovação Id",
+      "Title": "Title"
+    },
+    "DatasetName": "https://m365x68223294.sharepoint.com/sites/FormacaoWolenberg",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Pedidos Dispositivos",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
