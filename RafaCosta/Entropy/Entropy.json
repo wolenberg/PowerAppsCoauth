@@ -97,7 +97,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/04/2023 13:44:34",
+  "HeaderLastSavedDateTimeUTC": "04/04/2023 13:51:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5ee497d8-d1b1-4d83-83c9-5d574ab85f97": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c646a4a6700c41c2a43715f6dd93b0da\""
@@ -107,7 +107,7 @@
     "john deere logo dourada": "335d9724-5739-4a62-8219-d92823161e3b.png"
   },
   "LocalResourceRootPaths": {
-    "john deere logo dourada": "https://docserverpwaprodwus.blob.core.windows.net/d14d1e29-9e86-4ea3-b3f4-2dc8896716d2-1/resource/Assets0Images0335d9724-5739-4a62-8219-d92823161e3b.png?sv=2018-03-28&sr=b&sig=Vk7wG0dO0lv2pwo%2F9WlWWQ3hfqX8bB3Ha12uSB%2BiLKc%3D&spr=https&se=2023-04-05T13%3A58%3A34Z&sp=r"
+    "john deere logo dourada": "https://docserverpwaprodeus.blob.core.windows.net/803a7bdf-58cf-4bec-a85e-aa7468c2416d-1/resource/Assets0Images0335d9724-5739-4a62-8219-d92823161e3b.png?sv=2018-03-28&sr=b&sig=UsyPknpR0YnotrjDVBR3nQxLyf0VRc8rsqtncDyXykE%3D&spr=https&se=2023-04-05T14%3A05%3A38Z&sp=r"
   },
   "OldLogoFileName": "dhfeisf0.jpg",
   "OrderComponentMetadata": {},
@@ -357,7 +357,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3327155,
+    "AnalysisLoadTime": 0.4307962,
     "ControlCount": {
       "button": 6,
       "checkbox": 1,
@@ -375,7 +375,7 @@
       "text": 5,
       "typedDataCard": 6
     },
-    "DeserializationLoadTime": 0.6584563,
+    "DeserializationLoadTime": 1.0009111,
     "ErrorCount": 2
   },
   "WasLocalDatabaseReferencesEmpty": true
