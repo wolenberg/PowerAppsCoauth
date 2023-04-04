@@ -9,6 +9,7 @@
     "btnSubmeter": 50,
     "Button1": 92,
     "Button2": 55,
+    "Button3": 93,
     "Checkbox2": 67,
     "Comentários_DataCard2": 35,
     "Data Requisição_DataCard2": 45,
@@ -96,7 +97,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/04/2023 13:38:42",
+  "HeaderLastSavedDateTimeUTC": "04/04/2023 13:39:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5ee497d8-d1b1-4d83-83c9-5d574ab85f97": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c646a4a6700c41c2a43715f6dd93b0da\""
@@ -167,6 +168,7 @@
     "btnSubmeter": {},
     "Button1": {},
     "Button2": {},
+    "Button3": {},
     "Checkbox2": {},
     "Comentários_DataCard2": {},
     "Data Requisição_DataCard2": {},
@@ -262,6 +264,7 @@
     "btnSubmeter": 65,
     "Button1": 85,
     "Button2": 14,
+    "Button3": 0,
     "Checkbox2": 13,
     "Comentários_DataCard2": 50,
     "Data Requisição_DataCard2": 60,
