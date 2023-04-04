@@ -1,19 +1,23 @@
 "'Tela Sucesso' As screen.'tabletLayout_Success_ver3.0'":
-    Fill: =RGBA(242, 239, 223, 1)
-    LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     iconCircle1 As circle.Circle:
-        BorderColor: =RGBA(92, 74, 168, 1)
-        Fill: =RGBA(30, 14, 91, 1)
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
         X: =Parent.Width/2 - Self.Width/2
         Y: =(Parent.Height/2 - Self.Height/2) * .7
         ZIndex: =1
 
     iconCheck1 As icon.Check:
-        BorderColor: =RGBA(92, 74, 168, 1)
+        BorderColor: =RGBA(0, 0, 0, 0)
         Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         Height: =iconCircle1.Height
         Icon: =Icon.Check
         OnSelect: =Clear(ListaComparar);Navigate('Tela Principal')
@@ -21,7 +25,7 @@
         PaddingLeft: =Self.PaddingTop
         PaddingRight: =Self.PaddingTop
         PaddingTop: =24
-        PressedFill: =RGBA(255, 255, 255, 0.3)
+        PressedFill: =RGBA(0, 0, 0, 0)
         Width: =iconCircle1.Width
         X: =Parent.Width/2 - Self.Width/2
         Y: =(Parent.Height/2 - Self.Height/2) * .7
@@ -30,8 +34,9 @@
     LblSuccessMsg1 As label:
         Align: =Align.Center
         AutoHeight: =true
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(51, 51, 51, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
         Height: =iconCircle1.Height
         Size: =20
         Text: ="Seu registro foi salvo com êxito"
@@ -41,12 +46,20 @@
         ZIndex: =3
 
     Icon1 As icon.History:
-        BorderColor: =RGBA(92, 74, 168, 1)
+        BorderColor: =RGBA(166, 166, 166, 1)
         Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Home
         OnSelect: =Clear(ListaComparar);Navigate('Tela Principal')
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
         X: =170
         Y: =11
         ZIndex: =9
@@ -60,10 +73,14 @@
 
         lbCabecalho_2 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(92, 74, 168, 1)
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =btNavegar.Fill
+            FocusedBorderThickness: =4
             Font: =btNavegar.Font
             Height: =80
             Size: =24
@@ -72,9 +89,14 @@
             ZIndex: =4
 
         lbUsuario_2 As label:
-            BorderColor: =RGBA(92, 74, 168, 1)
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             Height: =80
             PaddingRight: =20
             Size: =13
@@ -87,11 +109,17 @@
 
         imgUsuario_2 As image:
             BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
             Height: =58
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
             Image: =User().Image
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
             RadiusBottomLeft: =50
             RadiusBottomRight: =50
             RadiusTopLeft: =50
@@ -102,10 +130,14 @@
             ZIndex: =6
 
         lbRodape_2 As label:
-            BorderColor: =RGBA(92, 74, 168, 1)
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =btNavegar.Fill
+            FocusedBorderThickness: =4
             Font: =btNavegar.Font
             Height: =30
             Size: =15
@@ -116,12 +148,19 @@
             ZIndex: =7
 
         imgLogoJohnDeere_2 As image:
-            BorderColor: =RGBA(92, 74, 168, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
             Height: =80
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
             Image: |-
                 ="https://th.bing.com/th/id/R.7a2d9d2626e4ccda8fa37e2d69a54e76?rik=x8gEgYgdGaYqeg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fjZgth6I.png&ehk=WaLKANwvaRDwHq97qDVvkODN5fEz9I%2fPwIR%2fc78pPI4%3d&risl=&pid=ImgRaw&r=0"
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =120
             ZIndex: =8
 
